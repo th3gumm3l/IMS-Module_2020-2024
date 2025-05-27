@@ -1,0 +1,190 @@
+/*Alles*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+
+
+
+/*Header CSS*/
+.header-section {
+    background-image: url("/Unsplash Bilder/Titelbild.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+/*Header Navigation*/
+.header-navigation {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.365);
+    align-items: center;
+}
+
+.navbar {
+    margin: 0 136px 0 0;
+}
+
+.navigation-item {
+    margin: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-size: 2rem;
+}
+
+.navigation-item:hover {
+    color: red;
+}
+
+/*Header Logo*/
+.header-logo {
+    margin-left: 30px;
+}
+
+.Header-HerstellungDesign {
+    display: flex;
+    justify-content: center;
+}
+
+.HerstellungDesign-Container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+    width: 60%;
+    background-color: rgba(193, 189, 189, 0.399);
+    box-shadow: 0.5rem 0.5rem rgba(47, 47, 47, 0.472), -0.5rem -0.5rem rgba(47, 47, 47, 0.472);
+    margin: 87px 0 87px 0;
+    
+}
+
+.HerstellungDesign-Container p {
+    align-items: center;
+}
+
+
+
+/*Body CSS*/
+.body-section {
+    background-color: rgba(184, 184, 184, 0.424);
+}
+
+/*Produkte*/
+.Body-Produkte {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.Produkte-item {
+    display: flex;
+    background-color: rgba(193, 189, 189, 0.399);
+    align-items: center;
+    justify-content: space-evenly;
+    width: 30%;
+    height: 300px;
+    margin: 30px 0 30px 0;
+    border: solid;
+    border-color: transparent;
+    transition: 0.2s;
+}
+
+.Produkte-item:hover {
+    border-color: rgb(232, 148, 148);
+    transition: 0.2s;
+}
+
+
+
+
+
+
+/*PreFooter CSS*/
+.prefooter-section {
+    background-color: rgb(169, 168, 168);
+}
+
+/*SmartSchuber*/
+.prefooter-SmartSchuber {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+}
+
+
+
+
+/*Footer CSS*/
+.footer-section {
+    background-color: lightgray;
+}
+
+.footer-Container {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+
+/*Footer Kontakt*/
+.footer-contact {
+    width: 50%;
+}
+
+.Kontakt-Container {
+    display: flex;
+}
+
+.Kontakt-Text {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    justify-content: center;
+    padding-right: 60px;
+}
+
+.Kontakt-Tabelle {
+    display: flex;
+    width: 45%;
+    align-items: center;
+    text-align: left;
+    padding: 0 50px 0 0;
+    justify-content: flex-end;
+}
+
+/*Footer Showroom*/
+.footer-showroom {
+    width: 50%;
+}
+
+.showroom-Container {
+    display: flex;
+}
+
+.showroom-text {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: right;
+    justify-content: center;
+    padding: 0px 50px 0 30px;
+}
+
+.showroom-karte-item {
+    margin: 0;
+    padding: 0;
+}
+
+.showroom-karte {
+    max-width: 300px;
+    max-height: 196px;
+}

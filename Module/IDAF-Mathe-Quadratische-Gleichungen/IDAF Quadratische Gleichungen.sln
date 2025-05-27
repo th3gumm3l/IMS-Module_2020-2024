@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IDAF Quadratische Gleichungen", "IDAF Quadratische Gleichungen\IDAF Quadratische Gleichungen.csproj", "{94FA08E1-DB13-4BA5-BE3D-E4A5859EAC1D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{94FA08E1-DB13-4BA5-BE3D-E4A5859EAC1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94FA08E1-DB13-4BA5-BE3D-E4A5859EAC1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94FA08E1-DB13-4BA5-BE3D-E4A5859EAC1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94FA08E1-DB13-4BA5-BE3D-E4A5859EAC1D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B9906662-32E8-4BC8-9CCF-585FF7A6C02F}
+	EndGlobalSection
+EndGlobal

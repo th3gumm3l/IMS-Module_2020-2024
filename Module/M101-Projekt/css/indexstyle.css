@@ -1,0 +1,352 @@
+
+/*Alles*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+/*Header CSS*/
+.header-section {
+    background-image: url("/Unsplash Bilder/Titelbild.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+
+/*Header Navigation*/
+.header-navigation {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.365);
+    align-items: center;
+}
+
+.navbar {
+    margin: 0 136px 0 0;
+}
+
+.navigation-item {
+    margin: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-size: 2rem;
+}
+
+.navigation-item:hover {
+    color: red;
+}
+
+/*Header Logo*/
+.header-logo {
+    margin-left: 30px;
+}
+
+/*Header News*/
+.header-news {
+    display: flex;
+    justify-content: center;
+}
+
+.header-news-container {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    width: 60%;
+    background-color: rgba(193, 189, 189, 0.399);
+    box-shadow: 0.5rem 0.5rem rgba(47, 47, 47, 0.472), -0.5rem -0.5rem rgba(47, 47, 47, 0.472);
+    margin: 60px 0 60px 0;
+    
+}
+
+.header-news-itemtext {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 40%;
+}
+
+.header-news-itembild {
+    display: flex;
+}
+
+.header-news-bild {
+    max-width: 473px;
+    max-height: 315px;    
+}
+
+
+
+
+
+/*Body CSS*/
+.body-section {
+    background-color: rgba(184, 184, 184, 0.424);
+}
+
+
+/*Body Über Uns*/
+.Body-UeberUns {
+    display: flex;
+    justify-content: center;
+}
+
+.UeberUns-Container {
+    display: flex;
+    align-items: center;
+    width: 60%;
+    margin: 60px 0 30px 0;
+    background-color: rgba(193, 189, 189, 0.399);
+    transition: 0.5s;
+}
+
+.UeberUns-Container:hover {
+    box-shadow: 10px 10px 2px rgb(80, 140, 150);
+    transition: 0.5s;
+}
+
+
+.UeberUns-Text {
+    display: flex;
+    flex-direction: column;
+    padding: 0 45px 0 45px;
+}
+
+.UeberUns-itembild {
+    display: flex;
+    padding: 30px 0 0 10px;
+}
+
+.UeberUns-Bild {
+    max-width: 300px;
+    max-height: 300px;
+}
+
+/*Body Dienstleistungen*/
+.Body-Dienstleistungen {
+    display: flex;
+    justify-content: center;
+}
+
+.Dienstleistungen-Container {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 30px 0 30px 0;
+    background-color: rgba(193, 189, 189, 0.399);
+    transition: 0.5s;
+}
+
+.Dienstleistungen-Container:hover {
+    box-shadow: 10px 10px 2px rgb(80, 140, 150);
+    transition: 0.5s;
+}
+
+
+.Dienstleistungen-Text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px 138px 0 138px;
+}
+
+/*Dienstleistungen Tabelle*/
+.Dienstleistungen-Tabelle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0 20px 0;
+    text-align: left;
+}
+
+.Dienstleistungen-Tabelle th {
+    padding-right: 180px;
+}
+
+/*Body Schuber Holding*/
+.Body-SchuberHolding {
+    display: flex;
+    justify-content: center;
+}
+
+.SchuberHolding-Container {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 30px 0 60px 0;
+    background-color: rgba(193, 189, 189, 0.399);
+    transition: 0.5s;
+}
+
+.SchuberHolding-Container:hover {
+    box-shadow: 10px 10px 2px rgb(80, 140, 150);
+    transition: 0.5s;
+}
+
+.SchuberHolding-Text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px 138px 0 138px;
+}
+
+/*SchuberHolding Tabelle*/
+.SchuberHolding-Tabelle-container {
+    padding: 20px;
+}
+
+.SchuberHolding-Tabelle {
+    width: 100%;
+    text-align: center;
+}
+
+.SchuberHolding-Tabelle th, td{
+    padding: 5px 0 5px 0;
+}
+
+.SchuberHolding-Tabelle a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/*PreFooter Abteil*/
+.prefooter-section {
+    background-color: rgb(157, 186, 191);
+}
+
+/*PreFooter ContactFormula*/
+.prefooter-ContactFormula {
+    display: flex;
+    justify-content: center;
+}
+
+.ContactFormula-Container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin: 30px 0 30px 0;
+}
+
+/*PreFooter KontaktFormular*/
+.Kontaktformular {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.CF-Text {
+    padding-bottom: 20px;
+}
+
+
+.KF-item {
+    padding: 5px;
+    text-align: center;
+    margin: 3px;
+    font-size: 18px;
+}
+
+.KF-item input,textarea{
+    border: solid;
+    padding: 10px;
+    width: 300px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border-color: transparent;
+}
+
+.KF-SubmitButton input{
+    margin: 10px;
+    border-color: transparent;
+    padding: 10px;
+    border-radius: 3px;
+    width: 250px;
+    font-size: 20px;
+}
+
+.KF-item input:hover {
+    border-color: rgb(232, 148, 148);
+}
+
+.KF-item textarea:hover {
+    border-color: rgb(232, 148, 148);
+}
+
+.KF-SubmitButton input:hover {
+    background-color: rgb(232, 148, 148);
+}
+
+
+/*Footer CSS*/
+.footer-section {
+    background-color: lightgray;
+}
+
+.footer-Container {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+
+/*Footer Kontakt*/
+.footer-contact {
+    width: 50%;
+}
+
+.Kontakt-Container {
+    display: flex;
+}
+
+.Kontakt-Text {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    justify-content: center;
+    padding-right: 60px;
+}
+
+.Kontakt-Tabelle {
+    display: flex;
+    width: 45%;
+    align-items: center;
+    text-align: left;
+    padding: 0 50px 0 0;
+    justify-content: flex-end;
+}
+
+/*Footer Showroom*/
+.footer-showroom {
+    width: 50%;
+}
+
+.showroom-Container {
+    display: flex;
+}
+
+.showroom-text {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: right;
+    justify-content: center;
+    padding: 0px 50px 0 30px;
+}
+
+.showroom-karte-item {
+    margin: 0;
+    padding: 0;
+}
+
+.showroom-karte {
+    max-width: 300px;
+    max-height: 196px;
+}
